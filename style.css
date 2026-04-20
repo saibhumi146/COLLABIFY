@@ -299,3 +299,15 @@ body { font-family: 'DM Sans', sans-serif; color: var(--text); background: var(-
   border-radius: 6px;
   cursor: pointer;
 }
+.idea-card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  margin-top: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.idea-card:hover {
+  transform: translateY(-5px);
+}
